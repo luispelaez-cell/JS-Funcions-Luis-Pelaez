@@ -12,3 +12,8 @@ function ex3(data){
     console.log(data)
 }
 ex3()
+function ex4(){
+    x="nacho"
+}
+ex4()
+console.log(x)
