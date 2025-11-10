@@ -6,3 +6,9 @@ function ex2(valor) {
     console.log(typeof valor)
 }
 ex2("pepino")
+
+function ex3(data){
+    data = "10/11/2025"
+    console.log(data)
+}
+ex3()
