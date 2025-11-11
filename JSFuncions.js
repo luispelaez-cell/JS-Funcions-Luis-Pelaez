@@ -31,3 +31,8 @@ function ex6(enter, enter1, enter2=1){
     console.log(enter+enter1+enter2)
 }
 ex6(1,2)
+function ex7(){
+ex3()
+    return(ex6)
+}
+ex7()
