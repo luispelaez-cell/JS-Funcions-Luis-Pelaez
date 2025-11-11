@@ -27,3 +27,7 @@ function ex5(string = "welow",vocal=0 ){
     console.log(vocal)
 }
 ex5()
+function ex6(enter, enter1, enter2=1){
+    console.log(enter+enter1+enter2)
+}
+ex6(1,2)
