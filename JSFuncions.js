@@ -36,3 +36,9 @@ ex3()
     return(ex6)
 }
 ex7()
+function ex8(ent1,ent2){
+    if(ent1 === 30 || ent2 === 30|| ent1+ent2=== 30){
+        console.log(true)
+    }
+}
+ex8(30)
