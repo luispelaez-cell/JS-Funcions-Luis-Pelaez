@@ -58,3 +58,8 @@ const ex10 = (val1,val2) => {
     }
 }
 ex10(1,5)
+const ex11 = (val1) =>{
+    const raiz= Math.sqrt(val1)
+    console.log( raiz.toFixed(2))
+}
+ex11(2)
