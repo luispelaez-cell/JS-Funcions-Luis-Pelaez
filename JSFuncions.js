@@ -42,9 +42,19 @@ function ex8(ent1,ent2){
     }
 }
 ex8(30)
-var ex9 = function(ent1,ent2){
+const ex9 = function(ent1,ent2){
     if(ent1 === 30 || ent2 === 30|| ent1+ent2=== 30){
         console.log(true)
     }
 }
 ex9(2,30)
+
+const ex10 = (val1,val2) => {
+    if(typeof val1 === typeof val2){
+        console.log(true)
+    }
+    else{
+        console.log(false)
+    }
+}
+ex10(1,5)
