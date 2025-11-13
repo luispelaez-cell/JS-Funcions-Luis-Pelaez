@@ -63,3 +63,8 @@ const ex11 = (val1) =>{
     console.log( raiz.toFixed(2))
 }
 ex11(2)
+
+let ex12= (str) =>{
+    console.log(str.toLowerCase())
+}
+ex12("PatAtA")
