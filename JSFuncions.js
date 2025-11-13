@@ -27,21 +27,25 @@ function ex5(string = "welow",vocal=0 ){
     console.log(vocal)
 }
 ex5()
+
 function ex6(enter, enter1, enter2=1){
     console.log(enter+enter1+enter2)
 }
 ex6(1,2)
+
 function ex7(){
 ex3()
     return(ex6)
 }
 ex7()
+
 function ex8(ent1,ent2){
     if(ent1 === 30 || ent2 === 30|| ent1+ent2=== 30){
         console.log(true)
     }
 }
 ex8(30)
+
 const ex9 = function(ent1,ent2){
     if(ent1 === 30 || ent2 === 30|| ent1+ent2=== 30){
         console.log(true)
@@ -57,6 +61,7 @@ const ex10 = (val1,val2) => {
         console.log(false)
     }
 }
+
 ex10(1,5)
 const ex11 = (val1) =>{
     const raiz= Math.sqrt(val1)
@@ -68,3 +73,12 @@ let ex12= (str) =>{
     console.log(str.toLowerCase())
 }
 ex12("PatAtA")
+
+let ex13= (val1,val2) =>{
+    if(val1 !== null){
+        console.log(val1 + " no es null")
+    }else if(val2 !== null){
+        console.log(val2 + " no es null")
+    }
+}
+ex13(null,2)
