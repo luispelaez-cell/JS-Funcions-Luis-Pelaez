@@ -94,3 +94,5 @@ let dividir = (frase, paraula) => {
 }
 console.log(posicio("Hola mr patatudo", "mr"));
 console.log(dividir("Hola mr patatudo","mr"));
+let ex15 = (x) => x + x + x;
+console.log(ex15(" Patatudo "));
