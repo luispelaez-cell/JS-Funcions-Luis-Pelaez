@@ -82,3 +82,15 @@ let ex13= (val1,val2) =>{
     }
 }
 ex13(null,2)
+let posicio = (frase, paraula) => {
+    let index = frase.indexOf(paraula);
+    if (index === -1) return -1;
+    return frase.length - index;
+}
+let dividir = (frase, paraula) => {
+    let index = frase.indexOf(paraula);
+    if (index === -1) return '';
+    return frase.slice(index + paraula.length);
+}
+console.log(posicio("Hola mr patatudo", "mr"));
+console.log(dividir("Hola mr patatudo","mr"));
